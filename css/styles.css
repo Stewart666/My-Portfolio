@@ -1,0 +1,124 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+/* Header Section Styles */
+.jumbotron {
+    position: relative;
+    background: url('../images/header-bg.jpg') no-repeat center center; /* Set the background image */
+    background-size: cover; /* Ensure the image covers the entire header */
+    height: 100vh; /* Full height of the viewport */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+    padding: 0;
+    border-radius: 0;
+    color: #fff;
+}
+
+.bg-gradient {
+    background: linear-gradient(to right, rgba(0, 86, 179, 0.8), rgba(0, 153, 255, 0.8)), 
+                url('../images/header-bg.jpg') no-repeat center center; /* Apply gradient overlay */
+    background-size: cover;
+}
+
+.header-content {
+    position: relative;
+    z-index: 2;
+}
+
+.header-content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.header-content p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.header-content .btn {
+    font-size: 1.2rem;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.header-content .btn:hover {
+    background-color: #fff;
+    color: #0056b3;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay for better readability */
+    z-index: 1;
+}
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+/* Custom styles for project cards */
+.card-img-top {
+    height: 250px; /* Set a fixed height for the card images */
+    object-fit: cover; /* Ensure the image covers the entire area */
+}
+
+.card-title {
+    color: #0056b3;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #333;
+}
+
+.card .btn-primary {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.card .btn-primary:hover {
+    background-color: #003f7f;
+}
+
+.btn-primary {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Custom styles for the contact form */
+#contact .form-group label {
+    color: #0056b3;
+    font-weight: bold;
+}
+
+#contact .form-control {
+    border-radius: 5px;
+    border: 2px solid #0056b3;
+}
+
+#contact .btn-primary {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#contact .btn-primary:hover {
+    background-color: #003f7f;
+}
+
+footer {
+    background-color: #0056b3;
+}
+
